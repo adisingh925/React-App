@@ -42,8 +42,8 @@ export default function TextForm(props) {
                 <h2>{props.heading}</h2>
                 <textarea className="form-control" id="textArea" hint="Enter Text Here" value={text} onChange={handleTextChange} rows="10" style={{backgroundColor : props.mode==="light"?"white":"#212529", color : props.mode==="light"?"black":"white"}}></textarea>
 
-                <button className='btn btn-primary mt-3 me-2' onClick={handleUpClick}>Convert To UpperCase</button>
-                <button className='btn btn-primary mt-3 me-2' onClick={handleLowerClick}>Convert To LowerCase</button>
+                <button className='btn btn-primary mt-3 me-2' onClick={handleUpClick}>To UpperCase</button>
+                <button className='btn btn-primary mt-3 me-2' onClick={handleLowerClick}>To LowerCase</button>
                 <button className='btn btn-primary mt-3 me-2' onClick={handleRemoveSpaceClick}>Remove Extra Spaces</button>
                 <button className='btn btn-primary mt-3 me-2' onClick={handleCopyClick}>Copy</button>
                 <button className='btn btn-primary mt-3' onClick={handleClearClick}>Clear</button>
