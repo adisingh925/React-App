@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/adisingh925/React-App/static/css/main.2543b9d3.css",
-    "main.js": "/adisingh925/React-App/static/js/main.681a9a93.js",
-    "static/js/787.28cb0dcd.chunk.js": "/adisingh925/React-App/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/adisingh925/React-App/index.html",
-    "main.2543b9d3.css.map": "/adisingh925/React-App/static/css/main.2543b9d3.css.map",
-    "main.681a9a93.js.map": "/adisingh925/React-App/static/js/main.681a9a93.js.map",
-    "787.28cb0dcd.chunk.js.map": "/adisingh925/React-App/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/React-App/static/css/main.2543b9d3.css",
+    "main.js": "/React-App/static/js/main.490a40f4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-App/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/React-App/index.html",
+    "main.2543b9d3.css.map": "/React-App/static/css/main.2543b9d3.css.map",
+    "main.490a40f4.js.map": "/React-App/static/js/main.490a40f4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-App/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2543b9d3.css",
-    "static/js/main.681a9a93.js"
+    "static/js/main.490a40f4.js"
   ]
 }
