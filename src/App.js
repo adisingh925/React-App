@@ -6,11 +6,8 @@ import TextForm from './components/Textform';
 import Alert from './components/Alert';
 
 import {
-  BrowserRouter as Router,
   Route,
-  Link,
-  Routes,
-  BrowserRouter
+  Routes
 } from "react-router-dom";
 
 function App() {
@@ -47,10 +44,9 @@ function App() {
       <Alert alert={alertMessage} />
 
       <div className="container">
-
         <Routes>
-          <Route path="/About" element={<About />} />
-          <Route path="/" element={<TextForm alert={setAlert} heading="Enter the Text to Analyse" mode={darkMode} />} />
+          <Route exact path="/" element={<TextForm alert={setAlert} heading="Enter the Text to Analyse" mode={darkMode} />} />
+          <Route exact path="/About" element={<About />} />
         </Routes>
 
       </div>
